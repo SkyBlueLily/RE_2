@@ -1,0 +1,101 @@
+/* 메인 페이지 */
+.main_page .ph_1 {
+    height: 847px;
+}
+
+.main_page .ph_1 .top_text {
+    top: 110px;
+    color: black;
+    font-weight: 400;
+}
+
+.main_page .ph_1 .top_text .line_1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.main_page .ph_1 .top_text .line_2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.main_page .ph_2 {
+    /* height: 500px; */
+    background-color: #ADCDEA;
+    color: black;
+    font-family: "Merriweather", serif; /* weight 300~900 */
+}
+
+.main_page .ph_2 .left {
+    flex-basis: 50%;
+    padding-left: 10%;
+}
+
+.main_page .ph_2 .right {
+    flex-basis: 50%;
+    margin-right: 5%;
+}
+
+.main_page .ph_2 .title,
+.main_page .ph_3 .title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.main_page .ph_2 .line_1,
+.main_page .ph_3 .line_1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-indent: 10px;
+}
+
+.main_page .ph_2 .line_2,
+.main_page .ph_3 .line_2 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 20px;
+    text-indent: 70px;
+}
+
+.main_page .ph_2 .line_3 ul,
+.main_page .ph_3 .line_3 ul
+ {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.main_page .ph_2 .line_3 li,
+.main_page .ph_3 .line_3 li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+.main_page .ph_2 .right img {
+    max-height: 424px;
+}
+
+.main_page .ph_3 {
+    /* height: 440px; */
+    height: auto;
+    background-color: #D9E3F3;
+    color: black;
+    font-family: "Merriweather", serif; /* weight 300~900 */
+}
+
+.main_page .ph_3 .left {
+    flex-basis: 50%;
+}
+
+.main_page .ph_3 .right {
+    flex-basis: 50%;
+}
+
+.main_page .ph_3 .left img {
+    max-height : 420px;
+}
+
+
+

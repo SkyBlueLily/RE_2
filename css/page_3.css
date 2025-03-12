@@ -1,0 +1,71 @@
+.page_3 .ph_1 .top_text {
+    top : 40px;
+}
+
+.page_3 .ph_2 {
+    background-color: #EEF5FB;
+}
+
+.page_3 .ph_3 {
+    height: 80px;
+}
+
+.page_3 .ph_4,
+.page_3 .ph_6 {
+    background-color: #ADCDEA;
+    display: flex;
+    flex-direction: column; /* 텍스트들을 위에서 아래로 정렬 */
+    justify-content: center; /* 수직 가운데 정렬 */
+}
+
+.page_3 .ph_5 {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.page_3 .ph_5 .line_1 {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: -10px;
+    line-height: 23px;
+}
+
+.page_3 .ph_7 {
+    height : auto;
+    background-color: #EEF5FB;
+}
+
+.page_3 .ph_7 .left{
+    flex-basis: 50%;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.page_3 .ph_7 .right {
+    flex-basis: 50%;
+    margin-right: 10%;
+}
+
+.page_3 .ph_7 img {
+    max-height: 500px;
+}
+
+.page_3 .ph_7 .right .ph_7video {
+    margin-bottom: 30px;
+}
+
+.page_3 .ph_7 .title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.page_3 .ph_7 .line_1,
+.page_3 .ph_7 .line_2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top : 5px;
+}

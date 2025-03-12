@@ -1,0 +1,92 @@
+.page_2 .ph_1 .top_text {
+    top : 40px;
+}
+
+.page_2 .ph_2 {
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.page_2 .ph_3,
+.page_2 .ph_5,
+.page_2 .ph_8 {
+    background-color: #ADCDEA;
+}
+
+.page_2 .ph_4,
+.page_2 .ph_7 {
+    background-color: #EEF5FB;
+}
+
+.page_2 .ph_3 .left,
+.page_2 .ph_4 .left,
+.page_2 .ph_5 .left{
+    flex-basis: 50%;
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 40%;
+}
+
+.page_2 .ph_3 .right,
+.page_2 .ph_4 .right,
+.page_2 .ph_5 .right {
+    flex-basis: 50%;
+    margin-right: 2%;
+}
+
+.page_2 .ph_3 img,
+.page_2 .ph_4 img,
+.page_2 .ph_5 img,
+.page_2 .ph_7 img,
+.page_2 .ph_8 img {
+    max-height: 500px;
+}
+
+.page_2 .ph_3 .title,
+.page_2 .ph_4 .title,
+.page_2 .ph_5 .title,
+.page_2 .ph_7 .title,
+.page_2 .ph_8 .title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.page_2 .ph_3 .line_1,
+.page_2 .ph_4 .line_1,
+.page_2 .ph_5 .line_1,
+.page_2 .ph_7 .line_2,
+.page_2 .ph_7 .line_3,
+.page_2 .ph_8 .line_2,
+.page_2 .ph_8 .line_3 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top : 30px;
+}
+
+.page_2 .ph_6 {
+    align-items: right;
+    padding-right: 60px;
+    padding-top: 35px;
+}
+
+.page_2 .ph_7 .left,
+.page_2 .ph_8 .left {
+    flex-basis: 50%;
+    margin-left: 5%;
+    margin-right: 2%;    
+}
+
+.page_2 .ph_7 .right,
+.page_2 .ph_8 .right {
+    flex-basis: 50%;
+    margin-right: 2%;
+    width: 40%;
+}
+
+.page_2 .ph_7 .line_1,
+.page_2 .ph_8 .line_1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top : 30px;
+}
+

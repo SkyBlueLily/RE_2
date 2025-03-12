@@ -1,0 +1,120 @@
+.head {
+    position: fixed;    
+    top: 0;
+    left : 0;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px #b3b2b1;
+
+    z-index : 1000;
+    /* rgba(0, 0, 0, 0.1); */
+}
+
+.top_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* 페이지 중앙 정렬 */
+    margin: 0 auto;
+    padding: 0 10px;
+
+    font-family: "Lato", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.top_area .logo {
+    background: url('../img/logo.webp') no-repeat center;
+    background-size: contain;
+    width: 300px;
+    height: 51px;
+    text-indent: -1000px;
+    margin-top: 4px;
+    min-width: 200px; /* 로고 최소 너비 */
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.top_area .menu_group {
+    position: absolute;
+}
+
+.top_area .menu {
+    display: flex;
+    flex-grow: 1; /* 메뉴가 남은 공간을 차지하도록 설정 */
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    gap: 20px; /* 메뉴 항목 간격 */
+    padding-right: 0px;
+}
+
+.top_area .menu .menu_mobile_img {
+    display: none;
+}
+
+.top_area .menu .menu_icon {
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 2%;
+    max-width : 55px;
+    min-width: 11px;
+    cursor: pointer;
+}
+ 
+.top_area .menu .menu_category {
+    cursor: pointer;
+    text-transform: uppercase;
+
+    position: relative; /* 기준점을 설정 */
+}
+
+.top_area .menu .menu_category.active {
+    color: #666;
+}
+
+/* 언더라인 */
+.top_area .menu .menu_category::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #393d47;
+    transition: width 0.5s ease;    
+}
+
+/* 활성화된 메뉴 언더라인 */
+.top_area .menu .menu_category.active::after {
+    width: calc(100% - 17px);
+}
+
+.top_area .menu .cate_0 {
+    flex-basis:  130px;
+    min-width: 0px;
+}
+
+.top_area .menu .cate_1 {
+    /* flex-basis:  105px; */
+    flex-basis:  125px;
+    min-width: 104px;
+}
+
+.top_area .menu .cate_2 {
+    /* flex-basis:  140px; */
+    flex-basis:  165px;
+    min-width: 141px;
+}
+
+.top_area .menu .cate_3 {
+    /* flex-basis:  120px; */
+    flex-basis:  140px;
+    min-width: 116px;
+}
+
+.top_area .menu .cate_4 {
+    /* flex-basis:  130px; */
+    flex-basis:  150px;
+    min-width: 127px;
+}

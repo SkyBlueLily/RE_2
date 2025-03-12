@@ -1,0 +1,77 @@
+
+
+.page_4 .ph_1 {
+    width: 100%;
+    height: auto;
+}
+.page_4 .ph_1 img {
+    margin-top: 30px;
+    max-width: 1500px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    object-fit: contain;
+    width: 90%;
+}
+
+.page_4 .ph_2 {
+    height : auto;
+    background-color: #EEF5FB;
+}
+
+.page_4 .ph_2 .left{
+    flex-basis: 30%;
+    margin-left: 3%;
+    width: 40%;
+}
+
+.page_4 .ph_2 .right {
+    flex-basis: 70%;
+}
+
+.page_4 .ph_2 .right img {
+    width: 100%;
+    max-width: 1200px;
+    object-fit: contain;
+}
+
+.page_4 .ph_2 .title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.page_4 .ph_2 .line_1,
+.page_4 .ph_2 .line_2,
+.page_4 .ph_2 .line_3 {
+    font-size: 16px;
+    font-weight: 100;    
+}
+
+.page_4 .ph_2 .line_2 {
+    margin-left: 18px;
+}
+
+.page_4 .ph_2 .line_1,
+.page_4 .ph_2 .line_3 {
+    margin-top: 10px;
+}
+
+.page_4 .ph_2 .left .line_1 img {
+    min-width: 15px;
+    max-width: 15px;
+    margin-right: 3px;
+}
+
+.page_4 .ph_2 .left .line_3 img {
+    min-width: 15px;
+    max-width: 15px;
+    margin-top: -2px;
+    margin-right: 3px;
+}
+
+.page_4 .ph_2 .left .line_4 img {
+    margin-top: 90px;
+    max-width: 90%;
+    object-fit: contain;
+}
