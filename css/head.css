@@ -9,7 +9,6 @@
     box-shadow: 0 2px 5px #b3b2b1;
 
     z-index : 1000;
-    /* rgba(0, 0, 0, 0.1); */
 }
 
 .top_area {
@@ -96,25 +95,21 @@
 }
 
 .top_area .menu .cate_1 {
-    /* flex-basis:  105px; */
     flex-basis:  125px;
     min-width: 104px;
 }
 
 .top_area .menu .cate_2 {
-    /* flex-basis:  140px; */
     flex-basis:  165px;
     min-width: 141px;
 }
 
 .top_area .menu .cate_3 {
-    /* flex-basis:  120px; */
     flex-basis:  140px;
     min-width: 116px;
 }
 
 .top_area .menu .cate_4 {
-    /* flex-basis:  130px; */
     flex-basis:  150px;
     min-width: 127px;
 }
